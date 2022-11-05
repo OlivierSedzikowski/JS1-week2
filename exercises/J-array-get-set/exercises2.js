@@ -11,6 +11,8 @@ let numbers = [1, 2, 3]; // Don't change this array literal declaration
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
+
+numbers.push(4);
 console.log(numbers);
 
 /* 

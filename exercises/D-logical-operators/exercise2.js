@@ -5,7 +5,23 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(number) {
+  return number < 0;
+}
+
+let num = 10;
+function isBetween5and10(num) {
+  return num >= 5 && num <= 10;
+}
+
+function isShortName (name) {
+  return name.length < 8;
+}
+
+
+function startsWithD (word) {
+  return word.charAt(0) === word.charAt(0).toUpperCase()
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE
